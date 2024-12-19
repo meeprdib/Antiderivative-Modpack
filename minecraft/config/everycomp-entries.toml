@@ -4,9 +4,6 @@
 
 	[types.wood_type]
 
-		[types.wood_type.mynethersdelight]
-			powdery = true
-
 		[types.wood_type.quark]
 			azalea = true
 			ancient = true
@@ -15,15 +12,19 @@
 		[types.wood_type.architects_palette]
 			twisted = true
 
-		[types.wood_type.cataclysm]
-			chorus = true
-
 		[types.wood_type.upgrade_aquatic]
 			driftwood = true
 			river = true
 
 		[types.wood_type.autumnity]
 			maple = true
+
+		[types.wood_type.netherexp]
+			claret = true
+
+		[types.wood_type.alexscaves]
+			pewen = true
+			thornwood = true
 
 		[types.wood_type.regions_unexplored]
 			alpha = true
@@ -50,12 +51,11 @@
 			willow = true
 			yellow_bioshroom = true
 
-		[types.wood_type.netherexp]
-			claret = true
+		[types.wood_type.mynethersdelight]
+			powdery = true
 
-		[types.wood_type.alexscaves]
-			pewen = true
-			thornwood = true
+		[types.wood_type.cataclysm]
+			chorus = true
 
 	[types.leaves_type]
 
@@ -98,6 +98,9 @@
 			avocado = true
 			fruiting_avocado = true
 
+		[types.leaves_type.alexscaves]
+			ancient = true
+
 		[types.leaves_type.regions_unexplored]
 			bamboo = true
 			golden_larch = true
@@ -131,17 +134,11 @@
 			willow = true
 			ashen = true
 
-		[types.leaves_type.alexscaves]
-			ancient = true
-
 	[types.stone_type]
 
 		[types.stone_type.spelunkery]
 			rock_salt = true
 			polished_nephrite = true
-
-		[types.stone_type.vintagedelight]
-			salt = true
 
 		[types.stone_type.galosphere]
 			pink_salt = true
@@ -178,22 +175,8 @@
 			cut_scorchia = true
 			cut_veridium = true
 
-		[types.stone_type.create_dd]
-			cut_stone = true
-			cut_packed_mud = true
-			cut_amethyst_block = true
-			cut_netherrack = true
-			cut_basalt = true
-			cut_blackstone = true
-			cut_weathered_limestone = true
-			cut_gabbro = true
-			cut_dolomite = true
-
 		[types.stone_type.upgrade_aquatic]
 			kelpy_cobblestone = true
-
-		[types.stone_type.regions_unexplored]
-			chalk = true
 
 		[types.stone_type.oreganized]
 			glance = true
@@ -209,14 +192,31 @@
 		[types.stone_type.supplementaries]
 			ash = true
 
-		[types.stone_type.scguns]
-			phosphorite = true
-
 		[types.stone_type.alexscaves]
 			galena = true
 			radrock = true
 			abyssmarine = true
 			guanostone = true
+
+		[types.stone_type.regions_unexplored]
+			chalk = true
+
+		[types.stone_type.vintagedelight]
+			salt = true
+
+		[types.stone_type.scguns]
+			phosphorite = true
+
+		[types.stone_type.create_dd]
+			cut_stone = true
+			cut_packed_mud = true
+			cut_amethyst_block = true
+			cut_netherrack = true
+			cut_basalt = true
+			cut_blackstone = true
+			cut_weathered_limestone = true
+			cut_gabbro = true
+			cut_dolomite = true
 
 #Disables specific entries
 [entries]

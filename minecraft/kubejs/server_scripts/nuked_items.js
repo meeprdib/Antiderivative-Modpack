@@ -56,6 +56,7 @@
       'spelunkery:sulfur',
       'spelunkery:sulfur_block',
       'scguns:stun_grenade',
+      'spelunkery:rock_salt',
       ['vintagedelight:mixed_salt_bricks', 'vintagedelight:mixed_salt_brick_stairs', 'vintagedelight:mixed_salt_brick_slab', 'vintagedelight:mixed_salt_brick_wall'],
       ['spelunkery:wooden_sluice', 'spelunkery:stone_sluice'],
       ['create_dd:raw_padded_rubber', 'create_dd:raw_padded_tiled_rubber', 'create_dd:raw_padded_mosaic_rubber', 'create_dd:raw_padded_rubber_slab', 'create_dd:raw_padded_rubber_stairs', 'create_dd:raw_rubber_block', 'create_dd:raw_rubber'],

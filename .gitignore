@@ -25,3 +25,4 @@ instance.cfg
 minecraft/options.txt
 *.log
 minecraft/kubejs/documentation/index.html
+minecraft/fancymenu_data/last_world.fmdata

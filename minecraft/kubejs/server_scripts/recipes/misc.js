@@ -35,7 +35,6 @@ ServerEvents.recipes(event => {
     itemReplacement(['createaddition:gold_spool', 'createaddition:electrum_spool']);
     itemReplacement(['create_central_kitchen:sap_bucket', 'create_dd:sap_bucket']);
     itemReplacement(['refurbished_furniture:sweet_berry_jam', 'vintagedelight:sweet_berry_jam_bottle']);
-    itemReplacement(['spelunkery:rock_salt', 'galosphere:pink_salt_shard']);
     itemReplacement(['create_dd:bury_blend', 'architects_palette:wardstone_brick']);
     itemReplacement(['scguns:hardened_pebbles', '#spelunkery:pebbles']);
     itemReplacement(['scguns:nitro_buckshot', 'scguns:nitro_powder']);
@@ -81,7 +80,7 @@ ServerEvents.recipes(event => {
         'spelunkery:lapis_ore_blasting',
         'spelunkery:coal_ore_smelting',
         'spelunkery:coal_ore_blasting',
-        'vintagedelight:salt_bucket_to_salt',
+        // 'vintagedelight:salt_bucket_to_salt',
         'autumnity:sappy_maple_log_from_sap_bottle',
         'autumnity:sappy_maple_wood_from_sap_bottle',
         'ae2:network/parts/panels_semi_dark_monitor',
@@ -143,9 +142,6 @@ ServerEvents.recipes(event => {
 
     event.recipes.farmersdelight.cutting('#on:big_mushroom', '#forge:tools/knives', ['4x kubejs:mushroom_paste'])
     event.recipes.farmersdelight.cutting('minecraft:bread', '#forge:tools/knives', ['4x refurbished_furniture:bread_slice'])
-
-    event.recipes.farmersdelight.cutting('#on:salt_block', '#forge:tools/pickaxe', ['galosphere:pink_salt_shard'])
-    event.recipes.farmersdelight.cutting('galosphere:pink_salt_shard', '#forge:tools/pickaxe', ['spelunkery:salt'])
 
     let gummyBuilder = (gummy, ingredient) => {
         // event.recipes.remove({output: gummy})

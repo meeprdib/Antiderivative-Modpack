@@ -9,6 +9,7 @@ StartupEvents.registry('item', event => {
     event.create('computational_mechanism').displayName('Computational Mechanism').rarity('rare')
     event.create('incomplete_computational_mechanism').displayName('Incomplete Computational Mechanism').rarity('rare')
     event.create('incomplete_card').displayName('Incomplete Upgrade Card')
+    event.create('fluix_tube').displayName('Fluix Tube')
 
     event.create('chorus_gummy')
     .displayName('Chorus Gummy')

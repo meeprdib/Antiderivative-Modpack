@@ -91,6 +91,8 @@
             "attack_speed_factor": 0.5
         },
         "other": {
+            // if the Tooltips are injected on the logical server as well
+            "inject_lore_server": true,
             /*
             Whether the development mode of Miapi is enabled
             DO NOT ENABLE IF U DONT KNOW WHAT IT DOES

@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "f"
+	group: "587C20AC7F586D61"
+	id: "4B0049FCBE501F3A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "4B777D450A2F71AD"
+		tasks: [{
+			id: "711FCB8500B7AB6C"
+			item: "create:andesite_alloy"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 4.5d
+	}]
+	title: "f\\"
+}

@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = 'OdysseyNexus'
+Platform.mods.kubejs.name = 'Antiderivative'

@@ -1,6 +1,8 @@
 {
+  "config_version": "1.0.11",
   "general": {
-    "disabled_all_structures": false,
+    "min_structure_distance_from_world_center": 0,
+    "disable_all_structures": false,
     "enable_global_spacing_and_separation_modifier": true,
     "global_spacing_and_separation_modifier": 3.5
   },
@@ -8,6 +10,9 @@
     {
       "name": "minecraft:igloo",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -16,6 +21,9 @@
     {
       "name": "minecraft:village_desert",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -24,6 +32,9 @@
     {
       "name": "minecraft:village_plains",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -32,6 +43,9 @@
     {
       "name": "minecraft:village_savanna",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -40,6 +54,9 @@
     {
       "name": "minecraft:village_snowy",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -48,6 +65,9 @@
     {
       "name": "minecraft:village_taiga",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -56,6 +76,20 @@
     {
       "name": "ae2:meteorite",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "alexscaves:underground_cabin",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -64,6 +98,9 @@
     {
       "name": "apotheosis:tower_leaf",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -72,6 +109,9 @@
     {
       "name": "apotheosis:tower_main",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -80,6 +120,9 @@
     {
       "name": "apotheosis:tower_sand",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -88,6 +131,9 @@
     {
       "name": "apotheosis:tower_spruce",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 80,
       "whitelisted_biomes": [],
@@ -96,6 +142,9 @@
     {
       "name": "dungeons_arise:monastery",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 114,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 114,
       "whitelisted_biomes": [],
@@ -104,6 +153,9 @@
     {
       "name": "idas:ancient_portal/ancient_portal",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -112,6 +164,9 @@
     {
       "name": "idas:ancient_portal/nether_ancient_portal",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -120,6 +175,9 @@
     {
       "name": "idas:bearclaw_inn",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -128,6 +186,9 @@
     {
       "name": "idas:beekeepers_house",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -136,6 +197,9 @@
     {
       "name": "idas:castle",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -144,6 +208,9 @@
     {
       "name": "idas:farmhouse",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -152,6 +219,9 @@
     {
       "name": "idas:fishermans_lodge",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -160,6 +230,9 @@
     {
       "name": "idas:hermits_hollow",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -168,6 +241,9 @@
     {
       "name": "idas:pillager_camp",
       "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [
@@ -178,6 +254,9 @@
     {
       "name": "idas:redhorn_guild",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],
@@ -186,6 +265,9 @@
     {
       "name": "idas:winter_wagon",
       "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
       "enable_biome_check": false,
       "biome_check_distance": 0,
       "whitelisted_biomes": [],

@@ -6,15 +6,41 @@
 	id: "4B0049FCBE501F3A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "4B777D450A2F71AD"
-		tasks: [{
-			id: "711FCB8500B7AB6C"
-			item: "create:andesite_alloy"
-			type: "item"
-		}]
-		x: 0.5d
-		y: 4.5d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"03604D2BAF512814"
+				"1453350ECC8B2C39"
+			]
+			id: "4B777D450A2F71AD"
+			tasks: [{
+				id: "711FCB8500B7AB6C"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "1453350ECC8B2C39"
+			tasks: [{
+				id: "3D90EDD71441F0AF"
+				item: "kubejs:mushroom_paste"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "03604D2BAF512814"
+			tasks: [{
+				id: "7F3A52BD33614B4F"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+	]
 	title: "f\\"
 }

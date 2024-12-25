@@ -77,3 +77,7 @@ ServerEvents.tags('block', event => {
     event.add('create:tree_attachments', 'spelunkery:conk_fungus_block')
     event.add('minecraft:logs', 'spelunkery:conk_fungus_block')
 })
+
+ServerEvents.tags('dimension_type', event => {
+    event.removeAllTagsFrom('nether_regions', 'overworld_regions')
+})

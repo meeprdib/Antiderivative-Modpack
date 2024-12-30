@@ -70,9 +70,9 @@
               "continentalness": 0.0,
               "depth": 0.0,
               "erosion": 0.0,
-              "humidity": 0.3,
+              "humidity": 0.35,
               "offset": 0.175,
-              "temperature": 0.3,
+              "temperature": 0.35,
               "weirdness": 0.0
             }
           },
@@ -82,9 +82,9 @@
               "continentalness": 0.0,
               "depth": 0.0,
               "erosion": 0.0,
-              "humidity": 0.3,
+              "humidity": 0.35,
               "offset": 0.175,
-              "temperature": -0.3,
+              "temperature": -0.35,
               "weirdness": 0.0
             }
           },
@@ -94,9 +94,9 @@
               "continentalness": 0.0,
               "depth": 0.0,
               "erosion": 0.0,
-              "humidity": -0.3,
+              "humidity": -0.35,
               "offset": 0.175,
-              "temperature": -0.3,
+              "temperature": -0.35,
               "weirdness": 0.0
             }
           }

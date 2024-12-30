@@ -154,3 +154,5 @@
 !minecraft:windswept_hills,
 !minecraft:windswept_savanna,
 !minecraft:wooded_badlands,
+!yungscavebiomes:frosted_caves,
+!yungscavebiomes:lost_caves,

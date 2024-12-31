@@ -38,5 +38,9 @@
   "whitelist": {
     "desc:": "Changes the structure blacklist to a whitelist, default: false",
     "whitelist": false
+  },
+  "logRespawns": {
+    "desc:": "Log structure respawns happening to the latest.log, default: true",
+    "logRespawns": true
   }
 }

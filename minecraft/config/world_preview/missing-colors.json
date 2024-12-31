@@ -1,5 +1,11 @@
 [
   "ae2:spatial_storage",
+  "alexscaves:abyssal_chasm",
+  "alexscaves:candy_cavity",
+  "alexscaves:forlorn_hollows",
+  "alexscaves:magnetic_caves",
+  "alexscaves:primordial_caves",
+  "alexscaves:toxic_caves",
   "autumnity:maple_forest",
   "autumnity:pumpkin_fields",
   "blueprint:original_source_marker",
@@ -82,5 +88,7 @@
   "regions_unexplored:tropical_river",
   "regions_unexplored:tropics",
   "regions_unexplored:willow_forest",
-  "terrablender:deferred_placeholder"
+  "terrablender:deferred_placeholder",
+  "yungscavebiomes:frosted_caves",
+  "yungscavebiomes:lost_caves"
 ]

@@ -57,6 +57,15 @@
 		[types.wood_type.cataclysm]
 			chorus = true
 
+		[types.wood_type.sullysmod]
+			petrified = true
+
+		[types.wood_type.ecologics]
+			flowering_azalea = true
+			azalea = true
+			coconut = true
+			walnut = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.fruitsdelight]
@@ -133,6 +142,10 @@
 			white_magnolia = true
 			willow = true
 			ashen = true
+
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
 
 #Disables specific entries
 [entries]

@@ -9,39 +9,50 @@
 	kill_old_app = true
 	#List of blacklisted log files. This files won't show in GUI logs list.
 	blacklisted_logs = ["CrashAssistant: latest.log", "debug.log", "KubeJS: server.log", "KubeJS: client.log", "KubeJS: startup.log"]
+	#If options.txt doesn't exist, the default language will be used.
+	default_lang = "en_us"
 
 #Here you can configure debug options for easier configuration of the mod.
 [debug]
 	#Setting this value to one of listed here, will crash the game in order to show/debug gui.
-	#NONE - default value, no crash. You can always crash game by holding vanilla F3+C keybind.
+	#NONE - default value, no crash. You can always crash game by holding vanilla F3+C keybind or '/crash_assistant crash' command
 	#MIXIN_SETUP - will crash game on Mixin setup. Crash report not generated.
 	#MOD_LOADING - will crash game on load of this mod. Can be used to show FML error screen. Crash report generated.
 	#GAME_STARTED - will crash game on first tick of TitleScreen. Crash report generated.
 	crash_game_on_event = "NONE"
 
-#Here you can change text of buttons, generated msg, etc
+#Here you can change text of lang placeHolders.
+#You can change any text in lang files.
+#You don't need to modify jar. You can change it in config/crash_assistant/lang. For more info read README.md file located where.
 [text]
-	#Text of request_help_button
-	request_help_button = "Request help in the modpack Discord"
-	#Initial text of generated msg with links to all files.
-	msg = "Minecraft crashed!"
-	#Title label text, then crash report or hs_err exists.
-	title_crashed_with_report = "Oops, Minecraft crashed!"
-	#Title label text, then no crash report exists.
-	title_crashed_without_report = "Oops, Minecraft crashed without crash report!"
-	#Comment text under title.
-	comment_under_title = "To resolve the issue, please join the modpack discord server to report the issue, listed at the bottom of this pop-up.\nFirst, click the \"upload all and copy msg with links to all files\" button.\nThen, share these links in the Discord support forum located in the \"Antiderivative\" category.\nWhen making a forum post, be sure to be descriptive as to what you were doing when the modpack crashed,\nand if you modified the instance at all."
+	#$SUPPORT_NAME$ in lang files will be replaced with this value.
+	#For example this placeHolder used in: "gui.request_help_button": "request help in $SUPPORT_NAME$"
+	support_name = "Modded Minecraft Discord"
+	#$SUPPORT_PLACE$ in lang files will be replaced with this value.
+	support_place = "player_help channel"
+	#$MODPACK_NAME$ in lang files will be replaced with this value.
+	#For example this placeHolder used in: "gui.title_crashed_with_report": "Oops, $MODPACK_NAME$ crashed!"
+	modpack_name = "Minecraft"
 
 #Settings of modlist feature.
 #Adds in generated msg block about which mods modpack user added/removed/updated.
 [modpack_modlist]
 	#Enable feature.
 	enabled = true
-	#UUID's of players, who considered as modpack creator.
+	#nicknames of players, who considered as modpack creator.
 	#Only this players can overwrite modlist.json
+	#If this feature is enabled and this array is empty, will be appended with nickname of current player.
 	modpack_creators = ["e167f3fe1cc743aaa558cdd0babd44ce"]
 	#If enabled, modlist.json will be overwritten on every launch(mod loading),
 	#then game is launched by modpack creator.
 	#So you won't forget to save it before publishing.
 	auto_update = true
+
+#Settings of '/crash_assistant crash' command feature.
+[crash_command]
+	#Enable feature.
+	enabled = true
+	#To ensure the user really wants to crash the game, the command needs to be run again within this amount of seconds.
+	#Set to <= 0 to disable the confirmation.
+	seconds = 10
 

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "empowerment"
+	group: "587C20AC7F586D61"
+	id: "2FF9811E8E73F082"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Empowerment"
+}

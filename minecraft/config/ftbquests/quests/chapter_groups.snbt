@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "587C20AC7F586D61", title: "Antiderivative" }
+		{ id: "620542E70A28A2EE", title: "Exploration" }
+	]
+}

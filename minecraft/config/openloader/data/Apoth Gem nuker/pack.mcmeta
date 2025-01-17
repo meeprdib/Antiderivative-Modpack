@@ -1,0 +1,10 @@
+{
+	"pack":
+	{
+		"pack_format": 1,
+		"description": "1"
+	},
+	"filter": { "block": [
+		{"path": "gems"}
+	]}
+}

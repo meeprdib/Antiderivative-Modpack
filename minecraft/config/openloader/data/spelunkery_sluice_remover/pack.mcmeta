@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": "",
+    "pack_format": 15
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "spelunkery",
+        "path": "sluice"
+      }
+    ]
+  }
+}

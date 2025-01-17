@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "620542E70A28A2EE"
+	id: "1F9633342B422F96"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Nether"
+}

@@ -1,0 +1,108 @@
+{
+    "type": "minecraft:the_nether",
+    "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+        "biomes": [
+          {
+            "biome": "minecraft:nether_wastes",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": 0.0,
+              "offset": 0.0,
+              "temperature": 0.0,
+              "weirdness": 0.0
+            }
+          },
+          {
+            "biome": "minecraft:soul_sand_valley",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": -0.5,
+              "offset": 0.0,
+              "temperature": 0.0,
+              "weirdness": 0.0
+            }
+          },
+          {
+            "biome": "minecraft:crimson_forest",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": 0.0,
+              "offset": 0.0,
+              "temperature": 0.4,
+              "weirdness": 0.0
+            }
+          },
+          {
+            "biome": "minecraft:warped_forest",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": 0.5,
+              "offset": 0.375,
+              "temperature": 0.0,
+              "weirdness": 0.0
+            }
+          },
+          {
+            "biome": "minecraft:basalt_deltas",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": 0.0,
+              "offset": 0.175,
+              "temperature": -0.5,
+              "weirdness": 0.0
+            }
+          },
+          {
+            "biome": "alexscaves:toxic_caves",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": 0.35,
+              "offset": 0.175,
+              "temperature": 0.35,
+              "weirdness": 0.0
+            }
+          },
+          {
+            "biome": "alexscaves:forlorn_hollows",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": 0.35,
+              "offset": 0.175,
+              "temperature": -0.35,
+              "weirdness": 0.0
+            }
+          },
+          {
+            "biome": "alexscaves:candy_cavity",
+            "parameters": {
+              "continentalness": 0.0,
+              "depth": 0.0,
+              "erosion": 0.0,
+              "humidity": -0.35,
+              "offset": 0.175,
+              "temperature": -0.35,
+              "weirdness": 0.0
+            }
+          }
+        ],
+        "type": "minecraft:multi_noise"
+      },
+      "settings": "minecraft:nether"
+    }
+  }

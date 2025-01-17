@@ -1018,6 +1018,52 @@
           "minecraft:lush_caves"
         ]
       ]
+    },
+    {
+      "key": "layout_m617j1na",
+      "name": "Ocean Oddities",
+      "array": [
+        [
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields"
+        ],
+        [
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields"
+        ],
+        [
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields",
+          "minecraft:mushroom_fields"
+        ],
+        [
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas"
+        ],
+        [
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas",
+          "biome_m617ikas"
+        ]
+      ]
     }
   ],
   "slices": [
@@ -1026,13 +1072,13 @@
       "name": "Valley",
       "array": [
         [
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields"
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na"
         ],
         [
           "layout_ktoint2n",
@@ -1104,13 +1150,13 @@
       "name": "Low Slice",
       "array": [
         [
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields"
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na"
         ],
         [
           "layout_ktoint2n",
@@ -1182,13 +1228,13 @@
       "name": "Mid Slice",
       "array": [
         [
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields"
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na"
         ],
         [
           "layout_ktoint2n",
@@ -1260,13 +1306,13 @@
       "name": "High Slice",
       "array": [
         [
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields"
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na"
         ],
         [
           "layout_ktoint2n",
@@ -1338,13 +1384,13 @@
       "name": "Peaks",
       "array": [
         [
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields",
-          "minecraft:mushroom_fields"
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na",
+          "layout_m617j1na"
         ],
         [
           "layout_ktoint2n",
@@ -1569,6 +1615,11 @@
     }
   ],
   "biomes": [
+    {
+      "key": "biome_m617ikas",
+      "name": "regions_unexplored:alpha_grove",
+      "color": "#00ff04"
+    },
     {
       "key": "minecraft:mushroom_fields",
       "name": "minecraft:mushroom_fields"

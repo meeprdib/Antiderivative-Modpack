@@ -1,10 +1,10 @@
 {
 	"pack":
 	{
-		"pack_format": 1,
-		"description": "Compression's Recipes etc."
+		"pack_format": 15,
+		"description": "Advancement Nuker"
 	},
 	"filter": { "block": [
-		{"namespace": "kubejs", "path": "advancements"}
+		{"path": "advancements"}
 	]}
 }
